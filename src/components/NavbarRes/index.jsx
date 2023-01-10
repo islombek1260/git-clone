@@ -21,7 +21,7 @@ const index = () => {
 
 	return (
 		<>
-			<div className='responsive-navbar w-100 d-none px-2 py-2'>
+			<div className='responsive-navbar w-100 d-none px-3 px-md-4 px-lg-5'>
 				<div className='top w-100 d-flex justify-content-between align-items-center'>
 					<i
 						className='bi bi-list text-white fs-1'

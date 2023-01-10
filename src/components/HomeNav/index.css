@@ -1,11 +1,13 @@
 .home-nav {
 	top: 0;
 	z-index: 5;
+	padding-left: 28%;
 }
 
 .item-link {
 	cursor: pointer;
 	transition: background-color 0.3s ease;
+	font-size: 14px;
 }
 
 .item-link:hover {
@@ -20,9 +22,9 @@
 	border-bottom: 2px solid #e58f4e !important;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1100px) {
 	.home-nav {
-		padding-left: 250px;
+		padding-left: 30%;
 	}
 }
 
@@ -30,7 +32,6 @@
 	.home-nav {
 		overflow: auto !important;
 		padding-left: 0;
-		z-index: 20;
 		font-size: 14px;
 	}
 	.item-link {
@@ -38,9 +39,3 @@
 	}
 }
 
-@media only screen and (max-width: 575px) {
-	.item-link .bi,
-	.item-link svg {
-		display: none !important;
-	}
-}

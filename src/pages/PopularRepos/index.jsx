@@ -9,7 +9,7 @@ const index = () => {
 	const { repos } = values;
 
 	useEffect(() => {
-		document.title = "bd-ans | Owerview";
+		document.title = "islombek1260 | Owerview";
 	}, []);
 	return (
 		<>
@@ -21,7 +21,7 @@ const index = () => {
 				<ul className='repos-list list-unstyled d-flex flex-wrap align-items-center justify-content-between p-0 m-0'>
 					{repos.slice(0, 6).map((item) => {
 						return (
-							<li className='repos-item card p-3 mb-3' key={uuidv4()}>
+							<li className='repos-item card-border p-3 mb-3' key={uuidv4()}>
 								<div className='item-top d-flex justify-content-between align-items-center mb-4'>
 									<div className='d-flex align-items-center gap-2'>
 										<svg
@@ -42,22 +42,10 @@ const index = () => {
 											href={item.html_url}>
 											{item.name}
 										</a>
-										<p className='repo-type btn border rounded-pill py-0 px-2 m-0'>
-											{item.visibility}
-										</p>
 									</div>
-									<svg
-										aria-hidden='true'
-										height='16'
-										viewBox='0 0 16 16'
-										version='1.1'
-										width='16'
-										data-view-component='true'
-										className='octicon octicon-grabber'>
-										<path
-											fillRule='evenodd'
-											d='M10 13a1 1 0 100-2 1 1 0 000 2zm-4 0a1 1 0 100-2 1 1 0 000 2zm1-5a1 1 0 11-2 0 1 1 0 012 0zm3 1a1 1 0 100-2 1 1 0 000 2zm1-5a1 1 0 11-2 0 1 1 0 012 0zM6 5a1 1 0 100-2 1 1 0 000 2z'></path>
-									</svg>
+										<span className='repo-type btn border rounded-pill py-0 px-2 m-0'>
+											{item.visibility}
+										</span>
 								</div>
 								<div className='item-bottom'>
 									<p

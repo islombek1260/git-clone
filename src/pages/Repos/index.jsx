@@ -21,7 +21,7 @@ const index = () => {
 	};
 
 	useEffect(() => {
-		document.title = "bd-ans | Repositories";
+		document.title = "islombek1260 | Repositories";
 	}, []);
 	return (
 		<>

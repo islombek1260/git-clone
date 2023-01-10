@@ -20,7 +20,7 @@ const index = () => {
 		setPoint(pageNumber);
 	};
 	useEffect(() => {
-		document.title = `bd-ans | Followers`;
+		document.title = `islombek1260 | Followers`;
 	}, []);
 	return (
 		<>

@@ -24,3 +24,4 @@ export const Api = {
 		return axios.get(`${URL}/users/${user}/following`);
 	},
 };
+

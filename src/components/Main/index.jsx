@@ -8,7 +8,7 @@ const index = () => {
 	const [isMobile, setIsMobile] = useState(false);
 
 	const handleResize = () => {
-		if (window.innerWidth < 720) {
+		if (window.innerWidth < 768) {
 			setIsMobile(true);
 		} else {
 			setIsMobile(false);
@@ -23,8 +23,8 @@ const index = () => {
 		<>
 			<div className='main-page position-relative pt-4'>
 				{isMobile ? "" : <HomeNav />}
-				<div className='container-xxl container-fluid'>
-					<div className='row'>
+				<div className='container-xxl'>
+					<div className='row justify-content-around  px-3 px-md-4 px-lg-5'>
 						<Sidebar />
 						{isMobile ? <HomeNav /> : ""}
 						<Outlet />

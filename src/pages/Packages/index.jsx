@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 const index = () => {
 	useEffect(() => {
-		document.title = "bd-ans | Packages";
+		document.title = "islombek1260 | Packages";
 	}, []);
 
 	return (

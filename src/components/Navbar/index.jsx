@@ -16,7 +16,7 @@ const index = () => {
 
 	return (
 		<>
-			<div className='navbar d-flex justify-content-between align-items-center px-4'>
+			<div className='navbar d-flex justify-content-between align-items-center px-3 px-md-4 px-lg-5'>
 				<div className='navbar-left d-flex justify-content-start align-items-center gap-3'>
 					<NavLink className='navbar-logo text-decoration-none' to='/'>
 						<i className='bi bi-github fs-2 m-0 text-white'></i>

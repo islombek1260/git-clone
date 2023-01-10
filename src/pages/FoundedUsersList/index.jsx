@@ -21,7 +21,7 @@ const index = () => {
 	};
 	
 	useEffect(() => {
-		document.title = `bd-ans | Search`;
+		document.title = `islombek1260 | Search`;
 	}, []);
 	return (
 		<>

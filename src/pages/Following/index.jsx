@@ -21,7 +21,7 @@ const index = () => {
 	};
 
 	useEffect(() => {
-		document.title = "bd-ans | Following";
+		document.title = "islombek1260 | Following";
 	}, []);
 	return (
 		<>
